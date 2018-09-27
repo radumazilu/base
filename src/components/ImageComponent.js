@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 class ImageComponent extends Component {
-  render() {
+  render () {
     return (
-      <div className="image-wrapper">
-        <div className="profile-picture">
-          <div className="layer"></div>
+      <div className='image-wrapper'>
+        <div className='profile-picture'>
+          <div className='layer' />
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default ImageComponent;
+export default ImageComponent
